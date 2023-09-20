@@ -1,0 +1,182 @@
+body{
+    margin:0%;
+    padding:0%;
+}
+.container{
+  width:100%;
+  position: relative;
+  background-color: darkgray;
+  cursor: pointer;
+  overflow: hidden;
+}
+.container .searchBar{
+    width:100%;
+    height:60px;
+    background-color:green;
+    color:white;
+}
+.container .searchBar input[type="text"]{
+    width:170px;
+    height:20px;
+    background-color: transparent;
+    border-left:none;
+    border-right:none;
+    border-top:none;
+    margin:20px 0px 0px 20px;
+    text-align: center;
+    color:white;
+    
+}
+.container .searchBar button{
+    background-color: transparent;
+    border:none;
+    color:white;
+    font-size:20px;
+}
+.container .searchBar  span i{
+   position:relative;
+   top:-27px;
+   right:-95%;
+   margin:0px 0px 0px 5px;
+}
+.container .searchBar  span i:hover{
+    opacity:0.6;
+}
+.container .searchBar nav h2{
+    position: absolute;
+    top:-10px;
+    right:5%;
+}
+.container .searchBar nav h2:hover{
+    opacity:0.6;
+}
+.header{
+    width:100%;
+    height:50px;
+    background-color: rgb(218, 209, 200);
+  
+}
+.header .logo img{
+    width:50px;
+    height:50px;
+    border:1px solid none;
+    background-color: transparent;
+}
+.header ul{
+    display: flex;
+    list-style: none;
+    position: relative;
+    top:-50px;
+    right:-70%;
+   
+}
+.header ul li{
+    margin-right:10px;
+    text-transform: capitalize;
+}
+.header ul li a{
+    color:green;
+    font-size:18px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.header ul li a:hover{
+    opacity:0.7;
+}
+.header ul li a::after{
+    content:'';
+    width:0%;
+    display:inline-block;
+    position:relative;
+    top:-15px;
+    border-bottom:2px solid black;
+    transition: all 0.3s 0.1s;
+}
+.header ul li a:hover::after{
+    width:100%;
+}
+.maniBar{
+    width:100%;
+    height:500px;
+}
+.maniBar h2 {
+  text-align: center;
+  text-transform: capitalize;
+}
+.maniBar h3{
+    text-align: center;
+    text-transform: capitalize;
+}
+.maniBar hr{
+    width:150px;
+}
+.maniBar pre{
+    text-align: center;
+}
+.maniBar img{
+    width:400px;
+    height:300px;
+    overflow: hidden;
+    position: absolute;
+    top:30%;
+    right:0%;  
+}
+.maniBar button[type="submit"]{
+    width:100px;
+    height:30px;
+    position: relative;
+    bottom:-40%;
+   margin-left:20px;
+}
+.maniBar i{
+    width:30px;
+    height:20px;
+    background-color: green;
+    padding:5px;
+    position: relative;
+    bottom:-40%;
+    text-align: center;
+    transition: all 0.5s 0.1s;
+    border-radius:5px;
+}
+.maniBar i:hover{
+  width:60px;
+  height:20px; 
+}
+footer{
+    width:100%;
+    height:100px;
+    background-color: rgb(218, 209, 200);
+}
+footer ul{
+    display: flex;
+    list-style-type:none;
+    position: relative;
+    right:-53%;
+}
+footer ul li{
+    margin-right:10px;
+    font-size:20px;
+    text-transform: capitalize;
+}
+footer ul li i{
+    color:rgb(8, 8, 8);
+}
+footer ul li a{
+    text-decoration: none;
+    font-weight: 700;
+    color:black;
+    line-height:100px;
+}
+footer ul li::before{
+    content:'';
+    width:0%;
+    display:block;
+    position: relative;
+    bottom:-62%;
+    border-bottom:2px solid black;
+    transition: all 0.3s 0.1s;
+}
+footer ul li:hover::before{
+    width:100%;
+}
